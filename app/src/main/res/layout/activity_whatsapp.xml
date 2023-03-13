@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WhatsappActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/NuevoPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/purple_200"
+        android:padding="10dp"
+        android:text="@string/nuevo_pedido"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/Cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/NuevoPedido"
+        android:text="@string/cantidad" />
+
+    <TextView
+        android:id="@+id/Tamaño"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/Cantidad"
+        android:text="@string/tamano" />
+
+    <RadioGroup
+        android:id="@+id/rGroupTamaño"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tamaño">
+
+        <RadioButton
+            android:id="@+id/rbtnChico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/chico" />
+
+        <RadioButton
+            android:id="@+id/Mediano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mediano" />
+
+        <RadioButton
+            android:id="@+id/Grande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grande" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rGroupTamaño"
+        android:text="@string/tipo" />
+
+    <RadioGroup
+        android:id="@+id/rGroupTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tipo">
+
+        <RadioButton
+            android:id="@+id/rbtnPozoleRojo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/pozole_rojo" />
+
+        <RadioButton
+            android:id="@+id/rbtnPozoleVerde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pozole_verde" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/IngredientesExtra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rGroupTipo"
+        android:text="@string/ingredientes_extra" />
+
+    <CheckBox
+        android:id="@+id/cbRabano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IngredientesExtra"
+        android:checked="false"
+        android:text="@string/rabano" />
+
+    <CheckBox
+        android:id="@+id/cbLimon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cbRabano"
+        android:text="@string/limon" />
+
+    <CheckBox
+        android:id="@+id/cbCebolla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cbLimon"
+        android:text="@string/cebolla" />
+
+    <Button
+        android:id="@+id/ConfirmarPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/confirmar_pedido"
+        tools:ignore="VisualLintButtonSize" />
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Laboratorio 4</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">CACAHUAZINTLE</string>
+
+    <string name="Sucursales"><b>Suc.1:</b>  Zaragoza #213 Zona Cnetro, Calvillo Ags.
+        \n<b>Suc. 2:</b> Blvd. Rodolfo Landeros #150 Calvillo, Ags.
+        \n<b>Suc. 3:</b> Av.Aguascalientes Sur #436 Local 9-A Col.España,Ags.</string>
+    <string name="Desc_Imagen_1">Pozole_y_Antojitos_CACAHUAZINTLE</string>
+    <string name="contacto"><b>Contacto:</b></string>
+    <string name="next">Llamar</string>
+    <string name="nuevo_pedido"><b>Nuevo Pedido Pozole </b></string>
+    <string name="cantidad">Cantidad:</string>
+    <string name="tamano">Tamaño:</string>
+    <string name="chico">Chico</string>
+    <string name="mediano">Mediano</string>
+    <string name="grande">Grande</string>
+    <string name="tipo">Tipo:</string>
+    <string name="pozole_rojo">Pozole Rojo</string>
+    <string name="pozole_verde">Pozole Verde</string>
+    <string name="ingredientes_extra">Ingredientes Extra:</string>
+    <string name="rabano">Rabano</string>
+    <string name="limon">Limon</string>
+    <string name="cebolla">Cebolla</string>
+    <string name="confirmar_pedido">Confirmar pedido</string>
+
+
+</resources>
